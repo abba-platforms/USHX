@@ -29,6 +29,13 @@ https://github.com/abba-platforms/USHX/blob/main/WHITEPAPER.md
 
 ---
 
+## USHX Analysis
+
+**Index Benchmark Analysis:** Provides a full breakdown of USHX’s methodology, composite structure, governance, token representation, price formation, and trading considerations.  
+[View USHX_BENCHMARK_ANALYSIS.md](https://github.com/abba-platforms/USHX/blob/main/USHX_BENCHMARK_ANALYSIS.md)
+
+---
+
 ## Index Design Summary
 
 USHX is structured as a synthetic composite benchmark reflecting multiple dimensions of the U.S. healthcare sector. The index operates with the following parameters:
