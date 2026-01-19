@@ -47,14 +47,24 @@ USHX is scheduled to deploy on **BSC Mainnet in January 2026**.
 The full institutional documentation for US Health Index (USHX), including index methodology, governance framework, legal and benchmark-style disclaimers, smart contract architecture, and contract–whitepaper feature cross-mapping, is available in the official Whitepaper:
 
 **Whitepaper v1.0**  
-https://github.com/abba-platforms/USHX/blob/main/WHITEPAPER.md
+[View USHX WHITEPAPER.md](https://github.com/abba-platforms/USHX/blob/main/WHITEPAPER.md)
 
 ---
 
 ## USHX Analysis
 
 **Index Benchmark Analysis:** Provides a full breakdown of USHX’s methodology, composite structure, governance, token representation, price formation, and trading considerations.  
+**Analysis:**
 [View USHX_BENCHMARK_ANALYSIS.md](https://github.com/abba-platforms/USHX/blob/main/USHX_BENCHMARK_ANALYSIS.md)
+
+---
+
+## Methodology
+
+The **USHX Methodology** defines the formal rules governing index construction, data inputs, weighting logic, rebalancing procedures, governance controls, and integrity safeguards for the US Health Index. It serves as the authoritative specification ensuring transparency, repeatability, and auditability consistent with global benchmark standards.
+
+**Methodology:**   
+[View USHX METHODOLOGY.md](https://github.com/abba-platforms/USHX/blob/main/METHODOLOGY.md)
 
 ---
 
