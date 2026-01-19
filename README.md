@@ -1,4 +1,26 @@
+<!-- Project Badges -->
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Token Type](https://img.shields.io/badge/Token-BEP--20-blue.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![Build](https://img.shields.io/badge/Build-Upgradeable%20UUPS-orange.svg)
+![Creator](https://img.shields.io/badge/Creator-Simon%20Kapenda-lightgrey.svg)
+
 # US Health Index (USHX)
+
+## Project Details
+
+**Token Name:** US Health Index  
+**Token Symbol:** USHX  
+**Token Type:** BEP-20 Upgradeable  
+**Total Supply:** 10,000,000,000 USHX  
+**Creator:** [Simon Kapenda](https://linkedin.com/in/simonkapenda)  
+**Version:** 1.1  
+**Date:** January 6, 2026  
+**Updated:** January 19, 2026  
+
+---
+
+## Executive Summary
 
 **US Health Index (USHX)** is a blockchain-native synthetic benchmark token designed to define and track the economic performance, cost inflation, and structural dynamics of the United States healthcare sector. 
 
