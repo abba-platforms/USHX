@@ -2,6 +2,19 @@
 
 All notable changes to this repository will be documented in this file.
 
+---
+
+### v1.0.1 — 2026-01-19
+
+**Benchmark Analysis Update**
+
+- Updated **USHX Index Benchmark Analysis** to include comparative context with traditional indices
+- Added **NASDAQ-100 market capitalization reference (~USD 33.70 trillion)** for scale benchmarking
+- Clarified institutional positioning of USHX relative to large-cap global indices
+- No changes to index methodology, governance framework, or smart contract design
+
+---
+
 ## [1.0.0] - 2026-01-18
 
 ### Added
