@@ -140,6 +140,13 @@ All rebalancing actions follow documented procedures and are subject to governan
 
 ## 10. Governance and Oversight Framework
 
+- **Oracle Committee:** 5 members, quorum 3-of-5
+- **Methodology Anchoring:** Every index update is hashed and stored on-chain; methodology versioning is fully auditable
+- **Guardrails:** Minimum update interval and maximum change BPS enforced
+- **Snapshots & Smoothing:** Historical snapshots preserved; optional moving average applied
+- **Upgradeability:** UUPS proxy pattern; controlled by UPGRADER_ROLE
+- **Pausing & Emergency Overrides:** PAUSER_ROLE and admin override functions implemented
+
 USHX methodology and operations are governed through a formal governance framework controlling:
 
 - Methodology updates
@@ -182,6 +189,14 @@ Important clarification:
 
 ---
 
+### Oracle & Update Mechanics
+
+- **Propose & Approve:** Oracles propose new index values; approval by quorum triggers update
+- **Weighted Index Computation:** Can be derived automatically from Chainlink feeds for the four composite pillars
+- **Validation:** Minimum update interval and max change constraints enforce stability
+
+---
+
 ## 13. Price Formation and Market Trading
 
 If traded on centralized or decentralized venues:
@@ -206,6 +221,16 @@ Admission to a CEX does not constitute endorsement of the benchmark as an invest
 
 The benchmark administrator retains no discretionary control over secondary market pricing, liquidity conditions, or exchange order books. Any material divergence between the token’s market price and the index level does not affect benchmark integrity, index publication, or governance decisions.
 
+### Trading & Accessibility
+
+- **Decentralized Exposure:** USHX can be held and transferred on-chain like any ERC-20/BEP-20 token
+- **Centralized Exchange (CEX) Exposure:** USHX will be tradable on approved CEXs (starting with UpBit) to facilitate liquidity and institutional access
+- **On-Chain Transparency:** Every index update, methodology version, and historical snapshot is accessible on-chain
+
+### Planned IEO
+
+USHX is planned for an IEO on UpBit Exchange in January 2026, providing an initial controlled distribution and liquidity framework for token holders.
+
 ---
 
 ## 15. Comparison to Traditional Indices
@@ -220,7 +245,13 @@ The benchmark administrator retains no discretionary control over secondary mark
 
 ---
 
-## 16. IOSCO Benchmark Alignment
+## 16. NASDAQ 100 Market Cap Comparison
+
+For context, the **NASDAQ-100**, one of the largest equity indexes globally, has a market capitalization of approximately **$33.70 trillion**. USHX, with a FDV of **$10 trillion**, positions itself as a **high-value, institutional-grade, blockchain-native synthetic benchmark**, providing investors and analysts with a **transparent, on-chain reference for the U.S. healthcare sector**. This scale underscores USHX’s relevance as one of the **largest synthetic indexes designed for institutional exposure** in the digital asset ecosystem.
+
+---
+
+## 17. IOSCO Benchmark Alignment
 
 USHX is designed to align with the IOSCO Principles for Financial Benchmarks, including:
 
@@ -233,7 +264,7 @@ Alignment is continuously reviewed as the benchmark evolves.
 
 ---
 
-## 17. Discontinuation and Fallback Policy
+## 18. Discontinuation and Fallback Policy
 
 In the event of benchmark discontinuation:
 
@@ -245,7 +276,7 @@ No discretionary termination is permitted.
 
 ---
 
-## 18. Risk Considerations
+## 19. Risk Considerations
 
 Key risks include:
 - Data revisions
@@ -257,15 +288,26 @@ These risks are mitigated through transparency, formal controls, and documentati
 
 ---
 
-## 19. Versioning and Change Log
+## 20. Versioning and Change Log
 
 This document follows a structured versioning framework. All methodology changes, updates, and governance actions are logged, versioned, and publicly disclosed.
 
 ---
 
-## 20. Conclusion
+## 21. Summary
+
+USHX is an **institutional-grade synthetic benchmark**, combining transparent methodology, semi-synthetic Chainlink feed integration, oracle governance, upgradeability, and fully auditable on-chain snapshots. It provides **investors, analysts, and institutions** with a granular, data-driven measure of U.S. healthcare market dynamics.
+
+## 22. Conclusion
 
 USHX represents a new category of institutional-grade, blockchain-native benchmark indices, extending established index principles into transparent, programmable infrastructure suitable for modern financial systems.
+
+---
+
+## 23. Repo & References
+
+- GitHub Repository: [https://github.com/abba-platforms/USHX](https://github.com/abba-platforms/USHX)  
+- Whitepaper v2.1: [https://github.com/abba-platforms/USHX/blob/main/WHITEPAPER.md](https://github.com/abba-platforms/USHX/blob/main/WHITEPAPER.md)
 
 ---
 
