@@ -1,6 +1,28 @@
 # Changelog for US Health Index (USHX)
 
-All notable changes to this repository will be documented in this file.
+All notable changes to US Health Index (USHX) are documented in this file. This includes releases, upgrades, and important updates to the tokenomics and related frameworks.
+
+**Project:** US Health Index      
+**Author:** [Simon Kapenda](https://linkedin.com/in/simonkapenda)       
+**Organization:** US Health Index Inc.  
+**License:** MIT  
+**Start Date:** January 6, 2026
+
+---
+
+## [v1.0.1] — 2026-01-19
+
+### Added
+- Institutional-grade **Methodology summary section** in `README.md`
+- Direct backlink from `README.md` to `METHODOLOGY.md` for authoritative index construction rules
+- Clear differentiation between:
+  - Whitepaper (conceptual & governance)
+  - Benchmark Analysis (comparative & contextual)
+  - Methodology (normative index ruleset)
+
+### Documentation
+- Improved README navigability and benchmark transparency
+- Alignment with professional index publisher disclosure standards (e.g., S&P / MSCI–style documentation separation)
 
 ---
 
