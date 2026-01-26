@@ -20,6 +20,27 @@
 
 ---
 
+## USHX Deployment Summary
+
+The **US Health Index (USHX)** token has been deployed on **BSC Mainnet** as a **UUPS upgradeable proxy**. The deployment is fully documented and can be audited for transparency, governance, and upgrade traceability.
+
+Key deployment highlights:
+
+- **Deployer:** Simon Kapenda, Creator  
+- **Deployment Date:** January 26, 2026
+- **Network:** BNB Smart Chain (BSC) Mainnet     
+- **Proxy Address:** `0xdffAE6BF5438c3FD93cD1caB8EB36235dcD74032`  
+- **Implementation Address (Verified):** `0x13Cc4F30c36bEc991f927C132dC4902C73492648`  
+- **Upgrade Pattern:** UUPS  
+- **ProxyAdmin:** NONE (by design)  
+- **Auto Verification:** DISABLED  
+- **Token Name:** US Health Index (USHX)  
+- **Decimals:** 18  
+
+For the **full enterprise-grade deployment record**, including oracle committee setup, Chainlink feed configuration, guardrails, methodology anchoring, and emergency controls, see [DEPLOYMENT.md](./DEPLOYMENT.md).
+
+---
+
 ## Executive Summary
 
 **US Health Index (USHX)** is a blockchain-native synthetic benchmark token designed to define and track the economic performance, cost inflation, and structural dynamics of the United States healthcare sector. 
@@ -38,7 +59,12 @@ USHX is designed as an institutional-grade benchmark product, comparable in func
 
 The USHX benchmark is methodology-driven, governance-controlled, and designed to support read-only integration by external protocols, analytics platforms, and institutional users.
 
-USHX is scheduled to deploy on **BSC Mainnet in January 2026**.
+**Deployment:**
+
+- **Network:** BNB Smart Chain (BSC) Mainnet    
+- **Deployment Date:** January 26, 2026  
+- **Proxy Address:** `0xdffAE6BF5438c3FD93cD1caB8EB36235dcD74032`  
+- **Implementation Address (Verified):** `0x13Cc4F30c36bEc991f927C132dC4902C73492648`  
 
 ---
 
@@ -136,9 +162,10 @@ All governance actions are executed on-chain and are fully auditable.
 ## Network & Deployment Status
 
 - **Target Network:** BNB Smart Chain (BSC) Mainnet  
-- **Deployment Status:** Not yet deployed  
-- **Planned Deployment:** January 2026  
-- **Official Contract Address:** To be published upon deployment  
+- **Deployment Status:** Successfully deployed  
+- **Planned Deployment:** January 26, 2026  
+- **Official Contract Address (Proxy):** `0xdffAE6BF5438c3FD93cD1caB8EB36235dcD74032`  
+- **Implementation Address (Verified):** `0x13Cc4F30c36bEc991f927C132dC4902C73492648`      
 
 Only contract addresses published in this repository should be considered official.
 
@@ -235,7 +262,7 @@ US Health Index Inc. acts as the index publisher, methodology administrator, and
 
 ## Maintainer
 
-US Health Index (USHX)  
+US Health Index Inc. (USHX)  
 Created January 2026
 
 ---
