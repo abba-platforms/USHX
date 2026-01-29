@@ -10,12 +10,12 @@
 
 ## 1. Deployment Environment
 
-| Parameter                    | Value                                                                 |
+| Parameter                     | Value                                                                 |
 |-------------------------------|-----------------------------------------------------------------------|
 | Blockchain Network            | Binance Smart Chain (Mainnet)                                         |
 | Chain ID                      | 56                                                                    |
-| Hardhat EVM Version           | London                                                                 |
-| Solidity Compiler             | 0.8.20                                                                 |
+| Hardhat EVM Version           | London                                                                |
+| Solidity Compiler             | 0.8.20                                                                |
 | Compiler Optimizer            | Enabled, 200 runs, `viaIR: true`                                      |
 | Upgrade Framework             | OpenZeppelin Upgrades (UUPS)                                          |
 | Node & Package Manager        | Node 20+, npm 10+                                                     |
@@ -142,34 +142,34 @@ Key Features:
 
 ```
                              ┌────────────────────┐
-                             │      Deployer          │
-                             │ 0x228A2BEF1aA95...     │
+                             │      Deployer      │
+                             │ 0x228A2BEF1aA95... │
                              └─────────┬────-─────┘
                                        │
                                 deploys proxy
                                        │
                                        ▼
                         ┌─────────────────────────────┐
-                        │         USHX Proxy               │
-                        │ Proxy Storage: admin, impl       │
-                        │ Address: 0xdffAE6BF...           │
-                        │ Upgradeable via deployer         │
+                        │         USHX Proxy          │
+                        │ Proxy Storage: admin, impl  │
+                        │ Address: 0xdffAE6BF...      │
+                        │ Upgradeable via deployer    │
                         └─────────┬───────────────────┘
                                   │
                      ┌────────────┴─────────────┐
                      │                          │
                      ▼                          ▼
             ┌───────────────────┐       ┌───────────────────┐
-            │ Implementation        │       │ Proxy Storage        │
-            │ USHX v1               │       │ Slots: roles,        │
-            │ Address: 0x13Cc4...   │       │ state variables      │
+            │ Implementation    │       │ Proxy Storage     │
+            │ USHX v1           │       │ Slots: roles,     │
+            │ Address: 0x13Cc4... │     │ state variables   │
             └───────────────────┘       └───────────────────┘
                       │
                       ▼
              ┌───────────────────┐
-             │ Chainlink Oracles     │
-             │ Roles: ORACLE_ROLE    │
-             │ Feeds & Aggregates.   │
+             │ Chainlink Oracles  │
+             │ Roles: ORACLE_ROLE │
+             │ Feeds & Aggregates.│
              └───────────────────┘
 
 Notes:
