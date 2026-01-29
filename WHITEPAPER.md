@@ -2,28 +2,37 @@
 ## Whitepaper v1.0  
 ### Including Index Methodology & Governance Handbook v1.0
 
-**Publication Date:** January 2026  
-**Author:** Simon Kapenda      
+**Publication Date:** January 6, 2026  
+**Author:** Simon Kapenda  
 **Publisher:** US Health Index Inc., New York City, United States  
 **Index Administrator:** US Health Index Governance Committee  
+
 **Token Symbol:** USHX  
+**Blockchain:** BNB Smart Chain (BSC)  
+**Token Standard:** BEP-20 (ERC-20–compatible interface)  
 **Base Index Value:** 1,000  
 **Maximum Token Supply:** 10,000,000,000 USHX  
 **Implied Fully Diluted Value (FDV):** USD 10,000,000,000,000  
+
+**Primary Smart Contract (Proxy, BSC Mainnet):**  
+`0x13Cc4F30c36bEc991f927C132dC4902C73492648`  
+(Verified on BscScan)
 
 ---
 
 ## IMPORTANT NOTICE AND DISCLAIMER
 
-The US Health Index (USHX) is a blockchain-native synthetic benchmark designed exclusively for informational, analytical, and reference purposes. USHX does not represent ownership of, entitlement to, or a claim on any equity security, fund, exchange-traded product, debt instrument, derivative, or financial asset.
+The US Health Index (USHX) is a **blockchain-native synthetic benchmark** designed exclusively for **informational, analytical, and reference purposes**.
 
-USHX is not an investment product, not a security, not a fund, and not a financial instrument. The USHX token does not convey dividends, voting rights, profit participation, or claims on assets. It is not intended to be marketed, sold, or used as an investment vehicle.
+USHX **does not represent ownership of, entitlement to, or a claim on** any equity security, fund, exchange-traded product, debt instrument, derivative, or financial asset.
 
-US Health Index Inc. does not provide investment advice, brokerage services, portfolio management, or fiduciary services. No representation is made regarding the suitability of USHX for any purpose. Users rely on USHX entirely at their own discretion.
+USHX is **not an investment product**, **not a security**, **not a fund**, and **not a financial instrument**. The USHX token does **not** convey dividends, voting rights, profit participation, redemption rights, or claims on assets.
 
-The methodology, governance framework, and index values may change in accordance with the rules set forth herein. Past index performance is not indicative of future outcomes.
+US Health Index Inc. does **not** provide investment advice, brokerage services, portfolio management, or fiduciary services. Any use of USHX is undertaken entirely at the user’s own discretion and risk.
 
-This document aligns voluntarily with the IOSCO Principles for Financial Benchmarks but is not registered with, supervised by, or subject to approval by any financial regulator.
+The index methodology, governance framework, and publication rules may evolve in accordance with the procedures defined herein. **Past index performance is not indicative of future outcomes.**
+
+USHX voluntarily aligns with the **IOSCO Principles for Financial Benchmarks**, but is **not registered with, supervised by, or approved by any financial regulator**.
 
 ---
 
@@ -31,17 +40,19 @@ This document aligns voluntarily with the IOSCO Principles for Financial Benchma
 
 ### 1. Executive Summary
 
-The US Health Index (USHX) is a blockchain-native synthetic benchmark token that defines and tracks the U.S. healthcare sector’s economic performance, cost inflation, and structural dynamics. Built on a transparent, rules-based index derived from public market and macroeconomic data, USHX functions as an on-chain reference indicator, providing informational and analytical exposure to healthcare macro trends without representing ownership of any equities, ETFs, or financial instruments.
+The US Health Index (USHX) is a blockchain-native synthetic benchmark token designed to define and track the **economic performance, cost inflation, and structural dynamics of the United States healthcare sector**.
 
-Designed for investors, analysts, and institutions, USHX delivers a highly granular, data-driven benchmark for U.S. healthcare market dynamics—fully auditable, programmable, and accessible on-chain.
+USHX functions as an **on-chain reference indicator**, publishing benchmark values through a transparent, rules-based, and auditable framework. It provides macro-level healthcare insights **without representing ownership** of equities, ETFs, or financial instruments.
+
+USHX is designed for **institutions, analysts, policymakers, developers, and researchers** requiring a programmable and verifiable healthcare sector benchmark.
 
 ---
 
 ### 2. Purpose and Benchmark Definition
 
-USHX exists to address the absence of a single composite benchmark capturing the full economic dynamics of the U.S. healthcare sector beyond equity price performance alone.
+USHX exists to address the absence of a **single composite benchmark** capturing U.S. healthcare sector dynamics beyond equity price performance alone.
 
-USHX is a benchmark itself. It is not benchmarked to any individual equity index, ETF, or commercial financial product. It defines its own reference framework through transparent methodology, governance, and publication rules.
+USHX is **not derived from**, **pegged to**, or **benchmarked against** any single equity index, ETF, or commercial financial product. It defines its own reference framework through disclosed methodology, governance, and publication rules.
 
 ---
 
@@ -49,45 +60,49 @@ USHX is a benchmark itself. It is not benchmarked to any individual equity index
 
 USHX may be used for:
 
-- Macroeconomic research and healthcare policy analysis  
+- Macroeconomic and healthcare policy analysis  
 - Monitoring healthcare cost inflation and structural shifts  
-- Comparative sectoral and cross-market analysis  
-- Reference benchmarking for structured products (subject to licensing)  
-- On-chain analytics and programmable financial infrastructure  
+- Cross-sector and cross-market benchmarking  
+- Reference indexing for structured products (subject to licensing)  
+- On-chain analytics, dashboards, and smart contract integrations  
 
-USHX is not designed for retail speculation.
+USHX is **not designed for retail speculation**.
 
 ---
 
 ## PART II — TOKEN & ON-CHAIN ARCHITECTURE
 
-### 4. Token Standard and Compatibility
+### 4. Token Standard and Network
 
-USHX is implemented as a BEP-20 compatible token while preserving ERC-20 interface semantics. This design ensures interoperability across wallets, exchanges, and smart contract systems while benefiting from the operational efficiency of the BNB Smart Chain ecosystem.
+USHX is implemented as a **BEP-20 compatible token** on **BNB Smart Chain**, preserving full ERC-20 interface semantics.
+
+This ensures:
+- Broad wallet and exchange compatibility  
+- Low transaction costs  
+- Smart contract composability  
 
 ---
 
 ### 5. Base Index Value, Supply, and Economic Interpretation
 
-- Base Index Value: 1,000  
-- Maximum Token Supply: 10,000,000,000 USHX  
-- Implied Fully Diluted Value: USD 10 trillion  
+- **Base Index Value:** 1,000  
+- **Maximum Token Supply:** 10,000,000,000 USHX  
+- **Implied FDV:** USD 10 trillion  
 
-The base index value serves as a normalization reference point. It does not represent a price target or valuation claim. Changes in the index value reflect relative movements in the underlying healthcare sector dynamics.
+The base index value is a **normalization reference**, not a valuation claim or price target. Movements in the index reflect relative changes in healthcare sector dynamics as defined by the methodology.
 
 ---
 
 ### 6. Smart Contract Architecture
 
-USHX is deployed using a Universal Upgradeable Proxy Standard (UUPS) architecture. This architecture separates contract logic from state storage, enabling controlled upgrades while preserving historical integrity.
+USHX is deployed using a **Universal Upgradeable Proxy Standard (UUPS)** architecture.
 
-Key characteristics include:
-
+Key characteristics:
 - Governance-restricted upgradeability  
-- Immutable base parameters  
-- Explicit admin proxy separation  
-- Emergency control mechanisms  
-- Non-custodial design  
+- Immutable supply and base parameters  
+- Explicit separation of proxy and implementation logic  
+- Emergency pause and control mechanisms  
+- Fully non-custodial design  
 
 ---
 
@@ -225,13 +240,13 @@ In the event of index cessation:
 
 ### 21. Creator and Origin
 
-USHX was created in January 2026 by Simon Kapenda, creator of:
+USHX was created in January 2026 by **Simon Kapenda**, creator of:
 
-- SACE Index (SACE) — Africa’s largest synthetic currency index  
-- CillarCoin (CILLAR) — a programmable BEP-20 utility token for smart mobility fare payments and digital ticketing  
-- Namibia Digital Dollar (NADD) — Namibia’s first blockchain-native stablecoin pegged 1:1 to the Namibian Dollar (NAD)  
+- **SACE Index (SACE)** — a large-scale synthetic currency index  
+- **CillarCoin (CILLAR)** — a programmable BEP-20 utility token for smart mobility and digital ticketing  
+- **Namibia Digital Dollar (NADD)** — a blockchain-native stablecoin concept  
 
-USHX is a flagship benchmark product of US Health Index Inc., New York City.
+USHX is a flagship benchmark product of **US Health Index Inc., New York City**.
 
 ---
 
@@ -239,7 +254,7 @@ USHX is a flagship benchmark product of US Health Index Inc., New York City.
 
 - Whitepaper v1.0  
 - Index Methodology & Governance Handbook v1.0  
-- All amendments are logged and disclosed  
+- All amendments are logged publicly and disclosed in the project CHANGELOG  
 
 ---
 
@@ -247,19 +262,32 @@ USHX is a flagship benchmark product of US Health Index Inc., New York City.
 
 ### 23. Role of the Smart Contract
 
-The Solidity v1.7 contract functions as an enforcement and publication layer. It does not calculate index values or source raw data. It enforces governance, methodology anchoring, upgrade controls, and benchmark continuity.
+The Solidity v1.7 contract functions as an **enforcement and publication layer**.  
+It **does not calculate index values** or source raw data.
+
+Its role is to:
+- Enforce governance and quorum rules  
+- Anchor methodology versions  
+- Control upgrades and emergency actions  
+- Publish benchmark state changes  
 
 ---
 
-### 24. Contract Architecture Overview
+### 24. Deployed Contract Details
 
-USHX uses a UUPS upgradeable architecture consisting of a proxy contract, logic contract, and governance-controlled admin authority. The design supports long-term benchmark operation and institutional auditability.
+- **Network:** BNB Smart Chain (Mainnet)  
+- **Architecture:** UUPS Upgradeable Proxy  
+- **Proxy Contract (Verified):**  
+  `0x13Cc4F30c36bEc991f927C132dC4902C73492648`  
+- **Explorer:** BscScan  
+
+Implementation contracts are governance-controlled and may be upgraded in accordance with this Whitepaper.
 
 ---
 
 ### 25. Methodology Anchoring and Immutability
 
-The contract anchors methodology via version identifiers and cryptographic hash references. Updates require governance approval and preserve historical auditability.
+Methodology versions are anchored via **explicit identifiers and cryptographic hash references** emitted on-chain. Historical versions remain auditable and immutable.
 
 ---
 
