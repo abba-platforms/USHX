@@ -81,7 +81,7 @@ The full institutional documentation for US Health Index (USHX), including index
 
 **Index Benchmark Analysis:** Provides a full breakdown of USHX’s methodology, composite structure, governance, token representation, price formation, and trading considerations.  
 **Analysis:**
-[View USHX_BENCHMARK_ANALYSIS.md](https://github.com/abba-platforms/USHX/blob/main/USHX_BENCHMARK_ANALYSIS.md)
+[See BENCHMARK_ANALYSIS.md](https://github.com/abba-platforms/USHX/blob/main/BENCHMARK_ANALYSIS.md)
 
 ---
 
@@ -90,7 +90,7 @@ The full institutional documentation for US Health Index (USHX), including index
 The **USHX Methodology** defines the formal rules governing index construction, data inputs, weighting logic, rebalancing procedures, governance controls, and integrity safeguards for the US Health Index. It serves as the authoritative specification ensuring transparency, repeatability, and auditability consistent with global benchmark standards.
 
 **Methodology:**   
-[View USHX METHODOLOGY.md](https://github.com/abba-platforms/USHX/blob/main/METHODOLOGY.md)
+[See METHODOLOGY.md](https://github.com/abba-platforms/USHX/blob/main/METHODOLOGY.md)
 
 ---
 
