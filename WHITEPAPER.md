@@ -246,7 +246,7 @@ USHX was created in January 2026 by **Simon Kapenda**, creator of:
 - **CillarCoin (CILLAR)** — a programmable BEP-20 utility token for smart mobility and digital ticketing  
 - **Namibia Digital Dollar (NADD)** — a blockchain-native stablecoin concept  
 
-USHX is a flagship benchmark product of US Health Index Inc., New York City. US Health Index is a wholly-owned subsidiary of **Abba Platforms Inc.**
+USHX is a flagship benchmark product of US Health Index Inc., New York City. US Health Index Inc. is a wholly-owned subsidiary of **Abba Platforms Inc.**
 
 ---
 
