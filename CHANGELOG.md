@@ -3,11 +3,44 @@
 All notable changes to the US Health Index (USHX) are documented in this file.
 This includes releases, upgrades, smart contract updates, and documentation changes.
 
-Project: US Health Index (USHX)  
-Author: [Simon Kapenda](https://linkedin.com/in/simonkapenda)  
-Organization: US Health Index Inc.  
-License: MIT  
-Start Date: January 6, 2026
+**Project:** US Health Index (USHX)  
+**Author:** [Simon Kapenda](https://linkedin.com/in/simonkapenda)  
+**Organization:** US Health Index Inc.  
+**License:** MIT  
+**Start Date:** January 6, 2026
+
+---
+
+## [v1.0.2] - 2026-04-15
+
+### Added
+
+- Introduced USHX Listing & Market Structure Specification document (`USHX-LISTING-SPECS.md`)
+- Added README summary section referencing the institutional listing framework
+- Defined institutional-grade market formation framework for USHX (US Healthcare Index)
+- Established synthetic index classification as a benchmark reference financial instrument
+- Implemented controlled supply structure with 5% initial circulating float model
+- Introduced structured liquidity formation model based on:
+  - capital liquidity (USDT or equivalent)
+  - market maker participation
+  - staged supply release mechanism
+- Defined institutional price discovery framework with controlled early-stage volatility
+- Introduced order book architecture model with layered bid/ask liquidity design
+- Added governance framework covering:
+  - treasury control
+  - index methodology oversight
+  - market maker constraints
+- Defined market integrity and anti-manipulation principles for exchange listing readiness
+- Established success metrics based on market quality (spread, depth, stability) rather than speculative volume
+
+### Changed
+
+- Updated README.md to include a structured institutional summary of USHX and a direct reference link to `USHX-LISTING-SPECS.md`
+
+### Notes
+
+- This release formalizes USHX as a benchmark US healthcare index instrument designed for institutional market formation rather than a speculative token listing.
+- No changes were made to smart contract logic or on-chain mechanics in this release.
 
 ---
 
