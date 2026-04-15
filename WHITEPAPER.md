@@ -15,7 +15,7 @@
 **Implied Fully Diluted Value (FDV):** USD 10,000,000,000,000  
 
 **Primary Smart Contract (Proxy, BSC Mainnet):**  
-`0x13Cc4F30c36bEc991f927C132dC4902C73492648`  
+`0xdffAE6BF5438c3FD93cD1caB8EB36235dcD74032`  
 (Verified on BscScan)
 
 ---
@@ -277,8 +277,8 @@ Its role is to:
 
 - **Network:** BNB Smart Chain (Mainnet)  
 - **Architecture:** UUPS Upgradeable Proxy  
-- **Proxy Contract (Verified):**  
-  `0x13Cc4F30c36bEc991f927C132dC4902C73492648`  
+- **Proxy Contract (Verified):**      
+`0xdffAE6BF5438c3FD93cD1caB8EB36235dcD74032`     
 - **Explorer:** BscScan  
 
 Implementation contracts are governance-controlled and may be upgraded in accordance with this Whitepaper.
