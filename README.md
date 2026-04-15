@@ -77,6 +77,36 @@ The full institutional documentation for US Health Index (USHX), including index
 
 ---
 
+## USHX Institutional Market Framework
+
+USHX is a rules-based synthetic index representing the US healthcare sector, designed for institutional-grade market formation and exchange-based price discovery.
+
+The project defines a structured framework for:
+- Controlled liquidity formation
+- Benchmark index methodology
+- Governance-driven supply management
+- Institutional order book architecture
+- Exchange listing readiness (P2B and beyond)
+
+This positions USHX as a **benchmark financial instrument** rather than a speculative digital asset.
+
+---
+
+### 📄 Listing & Market Structure Specification
+
+Full institutional framework:
+
+➡️ [`USHX-LISTING-SPECS.md`](./USHX-LISTING-SPECS.md)
+
+This document defines the complete:
+- Market formation model
+- Supply and liquidity architecture
+- Index methodology governance
+- Price discovery framework
+- Exchange listing structure
+
+---
+
 ## USHX Analysis
 
 **Index Benchmark Analysis:** Provides a full breakdown of USHX’s methodology, composite structure, governance, token representation, price formation, and trading considerations.  
